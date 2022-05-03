@@ -20,14 +20,14 @@ font-family: 'Poppins', sans-serif;*/
     --container-color: #fff;
 
     /*Fonts*/
-  --body-font: 'Poppins', sans-serif;
-  --biggest-font-size: 2.25rem;
-  --h1-font-size: 1.5rem;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1rem;
-  --normal-font-size: .938rem;
-  --small-font-size: .813rem;
-  --smaller-font-size: .75rem;
+    --body-font: 'Poppins', sans-serif;
+    --biggest-font-size: 2.25rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
   
     /*Fonts weight*/
   --font-medium: 500;
@@ -142,7 +142,7 @@ input,button{
   }
 
   .nav__logo{
-      /*color: ;*/
+      color: #fff;
       display: inline-flex;
       align-items: center;
       column-gap: .25rem;
@@ -164,11 +164,11 @@ input,button{
           bottom:2rem;
           background-color: var(--container-color);
           box-shadow: 0 8px 24px hsla(228, 66%, 45%, .15);
-          width: 90%;
+          width: 90%;   
           right: 15;
           margin: 0 auto;
           padding: 1.30rem 3rem;
-          border-radius: 1.25;
+          border-radius: 10rem;
           transition: .4s;
       }
   }
@@ -194,3 +194,60 @@ input,button{
   .nav__link span{
       display: none;
   }
+
+
+  .home{
+      background: linear-gradient(170deg, hsl(0,0%,22%) 0%, hsl(0, 0%,6%) 30%);
+      padding-bottom:0;
+  } 
+
+  .home__container{
+      padding-top: 3rem;
+      row-gap: 3.5rem;
+  }
+   
+.home__title,.home__value-number{
+    color:#fff;
+}
+
+.home__tittle{
+    font-size: var(--biggest-font-size);
+    line-height:120%;
+    margin-bottom: 1.25rem;
+}
+
+.home__description{
+    color: var(--text-color-light);
+    margin-bottom: 2rem;
+}
+
+.home__search{
+    background-color: var(--body-color);
+    padding: .35rem .35rem .35rem .75rem;
+    display: flex;
+    align-items: center;
+    border-radius: .75rem;
+    border: 3px solid var(--text-color-light);
+    margin-bottom: 2rem;
+    width: 20rem;
+}
+
+.home__search i{
+    font-size: 1.25rem;
+    color: var(--first-color);
+}
+
+.home__search-input{
+    width: 90%;
+    background-color: var(--body-color);
+    color: var(--text-color);
+    margin: 0 .5rem;
+}
+
+.home__search-input::placeholder{  /*Não alterado*/
+    color: var(--text-color-light);
+}
+
+.home__value{
+    
+}
