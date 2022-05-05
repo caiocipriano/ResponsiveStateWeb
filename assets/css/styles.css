@@ -327,15 +327,18 @@ input,button{
     grid-template-columns: repeat(2, 1fr);
     gap:3rem;
     justify-items: center;
+    margin-bottom: 0.9rem;
 }
 
 .logos__img{
     height: 60px;
     opacity: .2;
     transition: .3s;
+    margin-bottom:10rem;
 }
 
 .logos__img img:hover{
     opacity: .6;   /*Ajustar Opacity*/
+
 
 }
