@@ -588,14 +588,15 @@ input,button{
     font-size: var(--smaller-font-size);
 }
 
+/*Corrigir Button*/
 .contact__card-button{
     font-size: var(--small-font-size);
     padding: 14px 0;
     width: 100%;
     border-radius: .25rem;
-    background-color: var(--first-color-lighten);
+    background: var(--first-color-lighten); 
     color:var(--first-color);
-    font-weight: font var(--font-semi-bold);
+    font-weight: var(--font-semi-bold);
     box-shadow: none;
 }
 
