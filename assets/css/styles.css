@@ -543,3 +543,32 @@ input,button{
     margin: auto;
     box-shadow: 0 16px 32px hsla(228, 66%, 25%, .25);
 }
+
+.contact__description{
+    font-size: var(--small-font-size);
+    margin-bottom: 2.5rem;
+
+}
+
+.contact__card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem .75rem;
+}
+
+
+.contact__card-box{
+    background-color: var(--body-color);
+    border: 2px solid var(--border-color);
+    padding: 1.25rem 1.25rem;
+    border-radius: .5rem;
+    transition: .3s;
+}
+
+.contact__card-info{
+    display: flex;
+    align-items: flex-start;
+    column-gap: .75rem;
+    margin-bottom: 1.25rem;
+}
+
