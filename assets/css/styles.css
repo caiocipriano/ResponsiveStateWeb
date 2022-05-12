@@ -105,7 +105,7 @@ input,button{
 }
 
 .section{
-    padding: 1.5rem 0 2rem;
+    padding: 4.5rem 0 2rem;
 }
 
 .section__title{
@@ -608,6 +608,24 @@ input,button{
 
 .contact__card-box:hover{
     box-shadow: 0 8px 24px hsla(228, 66%, 55%, .1);
+}
+
+.subscribe{
+    padding: 2.5rem 0;
+}
+
+.subscribe_container{
+    background-color: var(--first-color);
+    padding: 3rem 2rem;
+    border-radius: 1.25rem;
+    border:6px solid var(--first-color-lighten);
+    text-align: center;
+}
+
+.subscribe__title{
+    font-size: var(--h2-font-size);
+    color: #fff;
+    margin-bottom: 1rem;
 }
 
 
