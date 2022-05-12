@@ -503,15 +503,15 @@ input,button{
     box-shadow: 0 12px 32px hsla(228, 66%, 45%, .1);
 }
 
-.accordion-open .value__accordion-icon{
+.accordion-open, .value__accordion-icon{
     box-shadow: 0 4px 4px hsla(228, 66%, 45%, .1);
 }
 
-.accordion-open .value__accordion-arrow{
+.accordion-open, .value__accordion-arrow{
     box-shadow: 0 2px 4px hsla(228, 66%, 45%, .1);
 }
 
-.accordion-open .value__accordion-arrow i{
+.accordion-open, .value__accordion-arrow i{
     transform: rotate(-180deg);
 }
 
@@ -614,7 +614,7 @@ input,button{
     padding: 2.5rem 0;
 }
 
-.subscribe_container{
+.subscribe__container{
     background-color: var(--first-color);
     padding: 3rem 2rem;
     border-radius: 1.25rem;
@@ -627,6 +627,23 @@ input,button{
     color: #fff;
     margin-bottom: 1rem;
 }
+
+.subscribe__description{
+    color: hsla(228, 90%, 92%);
+    font-size: var(--small-font-size);
+    margin-bottom: 2rem;
+}
+
+.subscribe__button{
+    border: 2px solid #fff;
+    background: var(--first-color-light);
+    font-size: var(--small-font-size);
+}
+
+.subscribe__button:hover{
+    background-color: var(--first-color);
+}
+
 
 
 
