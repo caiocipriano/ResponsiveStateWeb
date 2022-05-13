@@ -667,3 +667,23 @@ input,button{
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
 }
+
+
+.footer__content, .footer__link{
+    display: grid;
+}
+
+.footer__content{
+    grid-template-columns: repeat(2, max-content);
+    gap: 2.5rem 4rem;
+}
+
+.footer__title{
+    font-size: var(--h3-font-size);
+    margin-bottom: 1rem;
+}
+
+.footer__links{
+    row-gap: .5rem;
+}
+
