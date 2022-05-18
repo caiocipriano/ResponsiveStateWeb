@@ -143,7 +143,7 @@ input,button{
   }
 
   .nav__logo{
-      color: #fff; 
+      color: #fff;
       display: inline-flex;
       align-items: center;
       column-gap: .25rem;
@@ -157,9 +157,8 @@ input,button{
      box-shadow: 0 1px 4px hsla(228, 4%, 15%, .1);
 }
 
-.scroll-header, .nav__logo{
+.scroll-header .nav__logo{
     color: var(--first-color);
-
 }
 
   .nav__logo i{
@@ -402,7 +401,7 @@ input,button{
 }
 
 
-.swiper-button-prev::after,
+.swiper-button-prev::after
 .swiper-button-next::after{
     content:'';
 }
@@ -513,15 +512,15 @@ input,button{
     box-shadow: 0 12px 32px hsla(228, 66%, 45%, .1);
 }
 
-.accordion-open, .value__accordion-icon{
+.accordion-open .value__accordion-icon{
     box-shadow: 0 4px 4px hsla(228, 66%, 45%, .1);
 }
 
-.accordion-open, .value__accordion-arrow{
+.accordion-open .value__accordion-arrow{
     box-shadow: 0 2px 4px hsla(228, 66%, 45%, .1);
 }
 
-.accordion-open, .value__accordion-arrow i{
+.accordion-open .value__accordion-arrow i{
     transform: rotate(-180deg);
 }
 
@@ -673,13 +672,13 @@ input,button{
     font-size: 1.25rem;
 }
 
-.footer__description,.footer__link{
+.footer__description.footer__link{
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
 }
 
 
-.footer__content, .footer__link{
+.footer__content .footer__link{
     display: grid;
 }
 
@@ -721,7 +720,7 @@ input,button{
     color: var(--title-color);
 }
 
-.footer__info,.footer__privacy{
+.footer__info .footer__privacy{
     display: flex;
 }
 
@@ -733,7 +732,7 @@ input,button{
     row-gap: 1.5rem;
 }
 
-.footer__copy,.footer__privacy{
+.footer__copy .footer__privacy{
     font-size: var(--smaller-font-size);
     font-weight: var(--font-medium);
     color: var(--text-color);
