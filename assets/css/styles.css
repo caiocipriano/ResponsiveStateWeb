@@ -17,7 +17,7 @@ font-family: 'Poppins', sans-serif;*/
     --text-color: hsl(228, 15%, 50%);
     --text-color-light: hsl(228, 12%, 75%);
     --border-color: hsl(228, 99%, 98%);
-    --body-color: black; /*fff*/
+    --body-color: #fff; /*fff*/
     --container-color: #fff;
 
     /*Fonts*/
@@ -764,7 +764,7 @@ input,button{
 .scrollup{
     position: fixed;
     right: 1rem;
-    bottom: 8rem;
+    bottom: -30%;
     background-color: var(--container-color);
     box-shadow: 0 8px 12px hsla(228, 66%, 45%, .1);
     display: inline-flex;
@@ -779,4 +779,8 @@ input,button{
 .scrollup:hover{
     transform: translateY(-.25rem);
     color: var(--first-color);
+}
+
+.show-scroll{
+    bottom: 8rem;
 }
