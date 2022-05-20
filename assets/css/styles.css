@@ -118,6 +118,32 @@ body.dark-theme{
 
 }
 
+/*Change color in some parts of the website*/
+.dark-theme .home__search,
+.dark-theme .swiper-button-next,
+.dark-theme .swiper-button-prev{
+    border: 3px solid var(--border-color);
+}
+
+.dark-theme .nav__menu,
+.dark-theme .home__img,
+.dark-theme .popular__card:hover,
+.dark-theme .value__img,
+.dark-theme .accordion-open,
+.dark-theme .accordion-open .value__accordion-icon,
+.dark-theme .accordion-open .value__accordion-arrow {
+    box-shadow: none;
+}
+
+
+.dark-theme .value__orbe,
+.dark-theme .value__accordion-icon,
+.dark-theme .value__accordion-arrow{
+    background-color: var(--container-color);
+}
+
+
+
 .container{
     max-width: 1024px;
     margin-left: 1.5rem;
@@ -156,7 +182,7 @@ body.dark-theme{
       width: 100%;
       background-color:  transparent;
       z-index: var(--z-fixed);
-      transition: .4s;
+      transition: .4s; /*DarkMode*/
   }
 
   .nav{
@@ -252,11 +278,9 @@ body.dark-theme{
       row-gap: 3.5rem;
   }
    
-.home__title,.home__value-number{
-    color:#fff;
-}
 
 .home__tittle{
+    color: #fff;
     font-size: var(--biggest-font-size);
     line-height:120%;
     margin-bottom: 1.25rem;
