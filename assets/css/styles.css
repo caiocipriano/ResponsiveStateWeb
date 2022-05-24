@@ -880,7 +880,7 @@ body.dark-theme{
 
 /*BreakPoints*/
 
-/*Small Devices*/
+/*For Small Devices*/
 
 @media screen and (max-width:350px) {
     .container{
@@ -983,5 +983,47 @@ body.dark-theme{
         grid-template-columns: repeat(2, 1fr);
         padding-top: 2rem;
     }
+
+    .home__orbe{
+        align-self: flex-end;
+    }
+
+    .home__data{
+        padding-bottom: 2rem;
+    }
+
+    .logos__container{
+        grid-template-columns: repeat(4, max-content);
+        justify-content: center;
+    }
+
+    .value__container,
+    .contact__container{
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+    }
+
+    .contact__images{
+        order: 1;
+    }
+
+    .contact__card{
+        justify-content: initial;
+    }
+
+    .subscribe__container{
+        padding: 3rem 13rem;
+    }
+
+    .footer__container{
+        grid-template-columns: repeat(2, max-content);
+        justify-content: space-between;
+    }
     
+}
+
+
+/*For Large Devices*/
+@media screen and (min-width:1024px) {
+        
 }
