@@ -939,5 +939,28 @@ body.dark-theme{
     .footer__content{
         gap:2.5rem
     }
+
+}
+
+/*For Medium Devices*/
+
+@media screen and (min-width:576px) {
+
+    .nav__menu{
+        width: 565;
+    }
+
+    .home__search{
+        width: 412px;
+    }
+
+    .contact__card{
+        grid-template-columns: repeat(2, 192px);
+        justify-content: center;
+    }
+
+    .footer__content{
+        grid-template-columns: repeat(3, max-content);
+    }
     
 }
