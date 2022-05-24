@@ -186,15 +186,18 @@ body.dark-theme{
 }
 
 .section__title{
- font-size: var(--h2-font-size);
- margin-bottom: 1rem;
+    font-size: var(--h2-font-size);
+    margin-bottom: 1rem;
+    margin-left: 1rem;
 }
 
 .section__title span{
+    margin-left: 1rem;
     color: var(--second-color);
 }
 .section__subtitle {
     display: block;
+    margin-left: 1rem;
     font-size: var(--small-font-size);
     color: var(--second-color);
   }
@@ -311,11 +314,14 @@ body.dark-theme{
     font-size: var(--biggest-font-size);
     line-height:120%;
     margin-bottom: 1.25rem;
+    margin-left: 1rem;
 }
 
 .home__description{
     color: var(--text-color-light);
     margin-bottom: 2rem;
+    margin-left: 1rem;
+
 }
 
 .home__search{
@@ -327,6 +333,8 @@ body.dark-theme{
     border: 3px solid var(--text-color-light);
     margin-bottom: 2rem;
     width: 20rem;
+    margin-left: 1rem;
+
 }
 
 .home__search i{
@@ -348,7 +356,7 @@ body.dark-theme{
 .home__value{
     display: flex;
     column-gap: 2.5rem;
-
+    margin-left: 1rem;
 }
 
 .home__value-number{
@@ -526,11 +534,15 @@ body.dark-theme{
 .value__description{
     font-size: var(--small-font-size);
     margin-bottom: 2rem;
+    margin-left: 1rem;
+
 }
 
 .value__accordion{
     display: grid;
     row-gap: 1.5rem;
+    margin-left: 1rem;
+
 }
 
 .value__accordion-item{
@@ -961,6 +973,15 @@ body.dark-theme{
 
     .footer__content{
         grid-template-columns: repeat(3, max-content);
+    }
+    
+}
+
+@media screen and (min-width:767px) {
+
+    .home__container{
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 2rem;
     }
     
 }
